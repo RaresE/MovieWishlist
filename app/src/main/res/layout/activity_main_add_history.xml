@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAddHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAddHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add your movies in history"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMovieTitleHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add movie title:"
+            android:layout_marginTop="65dp"/>
+
+        <EditText
+            android:id="@+id/etMovieTitleHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Johnny English" />
+
+        <TextView
+            android:id="@+id/tvReleaseDateHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add movie release date:" />
+
+        <EditText
+            android:id="@+id/etReleaseDateHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="06/04/2003" />
+
+        <TextView
+            android:id="@+id/tvGenreHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add movie genre:" />
+
+        <EditText
+            android:id="@+id/etGenreHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Comedy" />
+
+        <TextView
+            android:id="@+id/tvLikedMovieHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did you enjoy this movie:" />
+
+        <RadioGroup
+            android:id="@+id/rgEnjoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rbYes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/rbNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnAddMovieHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add movie to history"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

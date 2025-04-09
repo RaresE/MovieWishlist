@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117667130691",
+    "project_id": "tema9firebase1",
+    "storage_bucket": "tema9firebase1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117667130691:android:855c1e3176d8f693b213f6",
+        "android_client_info": {
+          "package_name": "com.example.tema2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-XA7JsqUBgXIZ5Oe5CTbokfHuM27wrtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
