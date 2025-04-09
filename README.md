@@ -2,6 +2,8 @@
 
 The **Movie Wishlist App** is an Android application designed for movie lovers to easily track what they want to watch and what they've already seen. It features a clean interface for managing a personalized wishlist and watch history, with Firebase support for storing additional movie details.
 
+This project is developed in **Android Studio** using **Gradle** as the build system.
+
 ## ✨ Main Features
 
 - ⭐ **Add Movies to Wishlist** – Save movies you plan to watch later in an organized list.
@@ -10,4 +12,3 @@ The **Movie Wishlist App** is an Android application designed for movie lovers t
 - 🕓 **Watch History** – Keep track of movies you've already watched.
 - 🎭 **Firebase Integration** – Store and manage directors and actors in Firebase.
 - 💾 **Local Database** – Store movie and history data locally for offline access.
-
